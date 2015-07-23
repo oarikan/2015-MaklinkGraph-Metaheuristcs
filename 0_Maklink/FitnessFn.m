@@ -73,13 +73,14 @@ classdef FitnessFn
             % local functions
             function checkInput(heights, hSize)
                 
-                if (length(heights)~=hSize)
-                    error('Wrong vector size for heights')
+                [m,n] = size(heights);
+                if max(m,n)~=hSize || min(m,n)~=1
+                    error('--wrong vector size for heights (%d, %d), it should be (%d, %d)',m,n,hSize,1);
                 end
                 lowerBool = sum(heights<0)>0;
                 upperBool = sum(heights>1)>0;
                 if lowerBool || upperBool
-                    error('Some value is outside [0 1] interval')
+                    error('--wome value is outside [0 1] interval--')
                 end
                 
             end
