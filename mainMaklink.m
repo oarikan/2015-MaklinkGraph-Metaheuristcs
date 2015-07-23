@@ -17,12 +17,12 @@ field = Field(limit, start, goal, obstacles, drawBool);
 
 
 % pick the fitness object
-fitness = field.fitness;
+fitnessFn = field.fitnessFn;
 
 
 
 %  ---------------- find best heights with metaheuricts  ----------------%
-%heights = rand(fitness.hSize,1);
+%heights = rand(fitnessFn.hSize,1);
 
 
 

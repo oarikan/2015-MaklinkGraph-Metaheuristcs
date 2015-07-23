@@ -12,7 +12,7 @@ classdef Field
         maklink
         path
         
-        fitness
+        fitnessFn
         
     end
     
@@ -37,7 +37,7 @@ classdef Field
             [this.path, limitsA, limitsB, ~] = this.maklink.getPath();
             
             % set fitness
-            this.fitness = Fitness(this.path, limitsA, limitsB);
+            this.fitnessFn = FitnessFn(this.path, limitsA, limitsB);
                        
             % draw field
             this.drawField(drawBool);

@@ -3,9 +3,16 @@ classdef ParticleSwarm
     %   Detailed explanation goes here
     
     properties
+        
+        fitnessFn
+        
     end
     
     methods
+        
+        function this = ParticleSwarm()
+        end
+        
     end
     
 end

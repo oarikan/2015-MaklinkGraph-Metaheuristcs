@@ -1,4 +1,4 @@
-classdef Fitness
+classdef FitnessFn
     %FITNESS Summary of this class goes here
     %   Detailed explanation goes here
     
@@ -17,7 +17,7 @@ classdef Fitness
     
     methods
         
-        function this = Fitness(path, limitsA, limitsB)
+        function this = FitnessFn(path, limitsA, limitsB)
             
             % set limits list
             this.limitsA = limitsA;
