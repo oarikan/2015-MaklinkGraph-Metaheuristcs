@@ -16,8 +16,7 @@ classdef Particle < handle
     
     methods
         
-        
-        
+
     end
     
 end

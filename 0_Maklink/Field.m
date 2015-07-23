@@ -153,10 +153,10 @@ classdef Field
         function drawNewPath(this, heights)
             
             % compute new points
-            [~, midpoints] = this.fitness.compute(heights);
+            [~, midpoints] = this.fitnessFn.compute(heights);
             
             % clear field
-            this.drawField({0 0 0})
+            this.drawField({1 0 0})
             
             % plot new path
             hold on;

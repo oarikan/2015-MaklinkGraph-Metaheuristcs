@@ -3,19 +3,15 @@ classdef ParticleSwarm
     %   Detailed explanation goes here
     
     properties
-        
-        % fitness function
-        fitnessFn
-        
-        % particles
-        particles
+               
+        bestGlobals
+        bestGlobalsFit
         
     end
     
     methods
         
-        
-        
+ 
     end
     
 end
