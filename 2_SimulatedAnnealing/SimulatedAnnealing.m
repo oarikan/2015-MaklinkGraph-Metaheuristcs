@@ -1,5 +1,5 @@
-classdef TabuSearch
-    %TABUSEARCH Summary of this class goes here
+classdef SimulatedAnnealing < handle
+    %SIMULATEDANNEALING Summary of this class goes here
     %   Detailed explanation goes here
     
     properties

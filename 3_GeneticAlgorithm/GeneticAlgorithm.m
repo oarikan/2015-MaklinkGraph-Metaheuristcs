@@ -1,5 +1,5 @@
-classdef SimulatedAnnealing
-    %SIMULATEDANNEALING Summary of this class goes here
+classdef GeneticAlgorithm < handle
+    %GA Summary of this class goes here
     %   Detailed explanation goes here
     
     properties

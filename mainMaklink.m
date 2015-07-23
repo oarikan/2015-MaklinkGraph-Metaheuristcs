@@ -19,6 +19,7 @@ field = Field(limit, start, goal, obstacles, drawBool);
 
 
 %  ---------------- find best heights with metaheuricts  ----------------%
+fitnessFn = field.fitnessFn;
 
 
 

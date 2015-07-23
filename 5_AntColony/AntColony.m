@@ -1,4 +1,4 @@
-classdef AntColony
+classdef AntColony < handle
     %ANTCOLONY Summary of this class goes here
     %   Detailed explanation goes here
     
