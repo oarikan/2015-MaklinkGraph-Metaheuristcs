@@ -1,4 +1,4 @@
-function [start, goal, limit, obstacles] = getParameters(idx)
+function [start, goal, limit, obstacles] = getExamples(idx)
 
     % examples of obstacles & start/goal points
     if idx==1

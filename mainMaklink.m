@@ -7,7 +7,7 @@ drawFreelink = true;
 drawMaklink = true;
 drawPath = true;
 drawBool = {drawFreelink, drawMaklink, drawPath};
-[start, goal, limit, obstacles] = getParameters(1);
+[start, goal, limit, obstacles] = getExamples(1);
 
 
 
@@ -16,13 +16,9 @@ field = Field(limit, start, goal, obstacles, drawBool);
 
 
 
-% pick the fitness object
-fitnessFn = field.fitnessFn;
-
 
 
 %  ---------------- find best heights with metaheuricts  ----------------%
-%heights = rand(fitnessFn.hSize,1);
 
 
 
