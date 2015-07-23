@@ -7,7 +7,7 @@ drawFreelink = true;
 drawMaklink = true;
 drawPath = true;
 drawBool = {drawFreelink, drawMaklink, drawPath};
-[start, goal, limit, obstacles] = getParameters(2);
+[start, goal, limit, obstacles] = getParameters(1);
 
 
 
