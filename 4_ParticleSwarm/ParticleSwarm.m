@@ -200,7 +200,7 @@ classdef ParticleSwarm
             for i=1:length(this.trialsFitStar)
                 hold all
                 subplot(2,1,1);
-                title('Social Star PSO','FontSize',14);
+                title('Star Social PSO','FontSize',14);
                 xlabel('# of iterations','FontSize',12);
                 ylabel('gbest fitness','FontSize',12);
 
